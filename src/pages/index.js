@@ -14,7 +14,7 @@ const HomePage = props => {
       <Head>
         <title>Website</title>
         <meta name="robots" content="index,follow" />
-        <meta name="description" content={t('home.headerContent')} />
+        <meta name="description" content={t('home.headContent')} />
         <link rel="canonical" href={siteUrl} />
       </Head>
       <Home {...props} />
