@@ -10,9 +10,6 @@ const production = NODE_ENV === 'production';
 
 const nextConfig = {
   distDir: '../build/_app',
-  publicRuntimeConfig: {
-    siteUrl: process.env.SITE_URL
-  },
   webpack: config => {
     const webpackConfig = { ...config };
 

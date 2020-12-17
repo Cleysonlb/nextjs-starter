@@ -1,5 +1,5 @@
 {
-  "name": "cleysonbraga.com",
+  "name": "nextjs-starter",
   "version": "1.0.0",
   "description": "NextJS starter",
   "author": "Cleysonlb",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "next dev src",
     "build": "next build src",
-    "start": "next start src --port ${PORT:-3000}",
+    "start": "next build src && next start src",
     "test": "jest",
     "test-watch": "yarn test --watch --notify",
     "test-coverage": "yarn test --coverage",
